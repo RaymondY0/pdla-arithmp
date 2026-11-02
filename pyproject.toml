@@ -21,3 +21,8 @@ dev = [
     "ruff>=0.8.0",
     "ty>=0.0.95"
 ]
+
+[tool.poe.tasks]
+lint = "ruff check ."
+format = "ruff format --check ."
+types = "ty ."
