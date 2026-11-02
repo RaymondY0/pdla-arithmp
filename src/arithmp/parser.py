@@ -163,7 +163,6 @@ class Parser:
                 f"unexpected token type: {token.type}", context.exception(token)
             )
         return None
-    
 
     def _eval_tree(
         self, tree: Tree[Token], variables: Variables, context: Context
