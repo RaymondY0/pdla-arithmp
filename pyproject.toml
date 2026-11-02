@@ -19,10 +19,10 @@ dev = [
     "pytest>=8.0.0",
     "poethepoet>=0.49.0",
     "ruff>=0.8.0",
-    "ty>=0.0.95"
+    "mypy>=0.9.0"
 ]
 
 [tool.poe.tasks]
 lint = "ruff check ."
 format = "ruff format --check ."
-types = "ty ."
+types = "mypy ."
