@@ -4,9 +4,7 @@ Custom storage for variables, including type definitions and helper functions.
 
 from __future__ import annotations
 
-from types import NoneType
-
-type VariableType = NoneType | bool | int | float | complex | str
+VariableType = None | bool | int | float | complex | str
 
 
 class Variables:
