@@ -4,8 +4,6 @@ Custom storage for variables, including type definitions and helper functions.
 
 from __future__ import annotations
 
-from typing import Union
-
 VariableType = None | bool | int | float | complex | str
 
 
